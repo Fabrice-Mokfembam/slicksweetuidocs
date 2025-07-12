@@ -191,8 +191,7 @@ export default function InputDocsPage() {
   );
 }
 
-// Reusable components remain the same...
-// Reusable components (same as in your Button docs)
+
 function TableHeader({ children }: { children: React.ReactNode }) {
   return (
     <th className='px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>

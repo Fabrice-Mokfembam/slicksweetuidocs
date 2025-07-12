@@ -1,10 +1,9 @@
-// app/documentation/installation/page.tsx
 "use client";
 
-import { Copy } from "lucide-react"; // Import Copy icon for CopyButton
+import { Copy } from "lucide-react"; 
 import Link from "next/link";
 
-// Reusable components (copied for self-containment in this page)
+
 function CopyButton({ content }: { content: string }) {
   return (
     <button
@@ -16,7 +15,7 @@ function CopyButton({ content }: { content: string }) {
         textarea.select();
         document.execCommand("copy");
         document.body.removeChild(textarea);
-        alert("Code copied to clipboard!"); // Replace with a custom toast/modal in production
+        alert("Code copied to clipboard!"); 
       }}
       aria-label='Copy code to clipboard'
     >

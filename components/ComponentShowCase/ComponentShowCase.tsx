@@ -2,7 +2,6 @@
 
 import { Button } from "slicksweetui"; 
 import { Input } from "slicksweetui"; 
-import { CircularSpinner } from "slicksweetui";
 
 export const ComponentShowcase = () => {
   return (
@@ -16,7 +15,7 @@ export const ComponentShowcase = () => {
           offers.
         </p>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
+        <div className='grid grid-cols-1 md:grid-cols-2  gap-12'>
           {/* Buttons Section */}
           <div className='bg-white p-8 rounded-lg shadow-md flex flex-col items-center'>
             <h3 className='text-2xl font-bold text-gray-800 mb-6 border-b-2 border-blue-500 pb-2'>
@@ -43,20 +42,7 @@ export const ComponentShowcase = () => {
             </div>
           </div>
 
-          {/* Spinners Section */}
-          <div className='bg-white p-8 rounded-lg shadow-md flex flex-col items-center'>
-            <h3 className='text-2xl font-bold text-gray-800 mb-6 border-b-2 border-blue-500 pb-2'>
-              Spinners
-            </h3>
-            <div className='flex items-center justify-center space-x-6 h-full min-h-[150px]'>
-           
-              <CircularSpinner size='sm' />
-              <CircularSpinner size='md' color='primary' />
-              <CircularSpinner size='lg' color='danger' />
-              {/* Custom colored spinner */}
-              <CircularSpinner className='border-t-yellow-500 border-r-yellow-500 size-12' />
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>

@@ -1,4 +1,3 @@
-// components/Footer.jsx
 import Link from 'next/link';
 
 export const Footer = () => {

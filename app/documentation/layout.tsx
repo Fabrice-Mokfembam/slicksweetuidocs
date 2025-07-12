@@ -105,7 +105,7 @@ export default function DocumentationLayout({
 
       {/* Main Content Area - Scrollable */}
       <main className='flex-1 md:ml-64 mt-36 md:mt-32 p-4 md:pl-8 md:pt-8 overflow-x-hidden'>
-        <div className='max-w-4xl mx-auto w-full'>{children}</div>
+        <div className='max-w-4xl mx-auto w-full mb-8'>{children}</div>
         <Footer/>
       </main>
     </div>
